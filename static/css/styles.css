@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdfaf3; /* Cream background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #d4af37 !important; /* Minimal Yellow Gold */
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Search Form */
+form .form-control, form .btn-primary {
+    border-color: #f3d067;
+}
+
+form .btn-primary {
+    background-color: #f3d067; /* Yellow button */
+    border: none;
+    color: #fff;
+}
+
+form .btn-primary:hover {
+    background-color: #e6c556; /* Hover effect */
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #f3d067; /* Yellow Header */
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Add Member Form */
+form .form-label {
+    color: #555;
+}
+
+form .btn-success {
+    background-color: #f3d067; /* Yellow Add Button */
+    border: none;
+}
+
+form .btn-success:hover {
+    background-color: #e6c556; /* Hover effect */
+}
+
+/* Table Styles */
+.table {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+    background-color: #f3d067; /* Yellow Table Header */
+    color: #fff;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #fef7e3; /* Light yellow hover row */
+}
+
+.table td, .table th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Footer */
+footer p {
+    color: #999;
+    text-align: center;
+}
